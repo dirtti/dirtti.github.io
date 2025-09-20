@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noljakan Dirtti ry</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .nav-link-custom {
+            color: #000;
+            text-decoration: none !important;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link-custom:hover {
+            color: #0d6efd;
+        }
+
+        .photo-section img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Noljakan Dirtti ry</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom mx-2" href="#news">Latest News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom mx-2" href="#rules">Rules</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom mx-2" href="#membership">Membership</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom mx-2" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="photo-section">
+            <img src="../images/summer-event.jpg" class="img-fluid" alt="A landscape image representing Noljakan Dirtti Ry">
+        </div>
+        <section id="post-content" class="container my-3">
+            <h2>Summer Event Success!</h2>
+            <p class="text-muted">Published: September 20, 2025</p>
+            <hr>
+            <p>This is the full content of the summer event article. You can add more text, photos, and other details here. It was a great day with lots of sun, fun activities, and community spirit.</p>
+            <p>Thank you to all our volunteers and attendees for making it a huge success. We look forward to seeing you all at our next event!</p>
+            <a href="../index.html" class="nav-link nav-link-custom mx-2">Back to Homepage</a>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
