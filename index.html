@@ -1,62 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Noljakan Dirtti ry - Kotisivu</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-  </head>
-  <body id="page-top">
-    <header class="text-dark text-center">
-      <div class="container d-flex align-items-center flex-column">
-        <img
-          class="mb-6 w-25 h-25"
-          src="./images/shovel-work-svgrepo-com.svg"
-          alt="DIRT SHOVEL"
-        />
-        <h1 class="text-dark text-uppercase mb-0">Noljakan Dirtti ry</h1>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Noljakan Dirtti ry" />
+    <meta property="og:description" content="Noljakan Dirtti ry:n virallinen verkkosivusto, bmx-, dirt- ja maastopyöräilijöiden yhteisö." />
+    <meta property="og:image" content="https://dirtti.org/images/noljakan_dirtti_park.jpg" />
+    <meta property="og:url" content="https://dirtti.org" />
+    <meta property="og:type" content="website" />
+    <title>Noljakan Dirtti ry</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .nav-link-custom {
+            color: #000;
+            text-decoration: none !important;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link-custom:hover {
+            color: #0d6efd;
+        }
+
+        .photo-section img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Noljakan Dirtti ry</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom mx-2" href="./posts/index.html">Uutiset</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom mx-2" href="#about">Tietoa meistä</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom mx-2" href="#contact">Yhteystiedot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom mx-2" href="#membership">Jäsenyys</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom mx-2" href="#rules">Turvallisuussäännöt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom mx-2" href="#volunteer">Vapaaehtoistyö</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
-    <section class="page-section text-dark mb-0" id="about">
-      <div class="container">
-        <h2 class="page-section-heading text-center text-uppercase text-dark">
-          (Y-tunnus: 3550234-2)
-        </h2>
 
-        <div class="row text-center">
-          <div class="col-lg-12 ms-auto">
-            <p class="lead">Tervetuloa Noljakan Dirtti ry:n kotisivuille.</p>
-            <p class="">Sivusto on tällä hetkellä rakenteilla.</p>
-            <p class="">
-              Suuria päivityksiä ja uutisia on tulossa torstaina 9. lokakuuta. Tarkistathan sivun silloin uudelleen, niin pysyt ajan tasalla.
-            </p>
-          </div>
+    <main>
+        <div class="photo-section">
+            <img src="images/noljakan_dirtti_park.jpg" class="img-fluid" alt="Noljakan Dirtti Park">
         </div>
-      </div>
-    </section>
 
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Tiedustelut:</h4>
-            <p class="lead mb-0">
-              <a href="mailto:info@dirtti.org">info@dirtti.org</a>.
-            </p>
-          </div>
+        <section id="news" class="container my-3 content-section">
+            <h2>Viimeisimmät uutiset</h2>
+            <div class="mb-4">
+                <h3>Noljakan Dirtti ry on saanut vuokrasopimuksen uudelle hyppypuistolle</h3>
+                <p>Noljakan Dirtti ry, paikallinen dirt- ja BMX-pyöräily yhdistys, on innoissaan ilmoittaessaan, että se on virallisesti saanut vuokrasopimuksen uuden dirt-hyppypuiston eli "dirtin" rakentamiseksi Joensuuhun.</p>
+                <a href="posts/20250925-noljakan_dirtti_ry_secures_lease_for_new_jump_park.html" class="nav-link nav-link-custom mx-2">Lue lisää</a>
+            </div>
+        </section>
+
+        <section id="about" class="container my-5 content-section">
+            <h2>Tietoa meistä</h2>
+            <p>Noljakan Dirtti ry on voittoa tavoittelematon yhdistys, joka edistää dirt-jump ja BMX-pyöräilyä Joensuun alueella. Toimintamme keskittyy turvallisten, laillisten ja viihtyisien ajopaikkojen luomiseen sekä vahvan ja tukevan yhteisön rakentamiseen.</p>
+            <p>Noljakan Dirtti ry ylläpitää Noljakassa sijaitsevaa Noljakan Dirt Jump Parkia. Klikkaa <a href="https://osm.org/go/02MDiwPTV-?layers=N" class="nav-link-custom d-inline p-0" target="new">tästä</a> karttaan ja tarkkaan sijaintiin. Geokoordinaatit: <strong>62.625140, 29.681445</strong>.</p>
+            <p>Noljakan Dirtti ry on Suomessa rekisteröity yhdistys, Y-tunnus 3550234-2.</p>
+        </section>
+
+        <section id="contact" class="container my-5 content-section">
+            <h2>Yhteystiedot</h2>
+            <p>Meihin voi ottaa yhteyttä sähköpostitse tai liittyä chat-ryhmäämme, jossa saat heti ilmoitukset virallisista uutisista ja sivuston päivityksistä.</p>
+            <ul class="list-unstyled">
+                <li><strong>Sähköposti:</strong> <a href="mailto:info@dirtti.org" class="nav-link-custom d-inline p-0">info@dirtti.org</a></li>
+                <li><strong>Chat-ryhmä:</strong> <a href="./chat" class="nav-link-custom d-inline p-0" target="_blank">Liity Signal-keskusteluun</a></li>
+            </ul>
+            <p>Olemme tehneet tietoisen päätöksen olla käyttämättä suosittuja sosiaalisen median alustoja merkittävien eettisten ja tietosuojaan liittyvien huolten vuoksi. Haluamme suojella jäsentemme tietoja ja vastustaa tunkeilevia käytäntöjä ja algoritmien manipulointia, joita usein liittyy näihin palveluihin.</p>
+            <p>Haluamme rakentaa yhteyksiä yksityisemmillä ja kunnioittavammilla kanavilla, minkä vuoksi käytämme Signalia ensisijaisena keskustelualustana.</p>
+        </section>
+
+        <section id="membership" class="container my-5 content-section">
+            <h2>Jäsenyys</h2>
+            <p>Tukesi merkitsee meille paljon! Liittymällä jäseneksi olet ratkaisevassa asemassa puistomme tulevaisuudessa. Jäsenmäärämme ovat tärkeä voimavara, kun haemme avustuksia ja rahoitusta, joiden avulla voimme parantaa puistoa ja rakentaa uusia elementtejä.</p>
+            <p>Juhlistaaksemme toiminnan alkua ja yhteisön rakentamista jäsenyys on täysin maksuton vuoden 2026 loppuun saakka. Nyt on loistava hetki liittyä mukaan, kasvattaa pohjaa ja vaikuttaa puiston tulevaisuuteen.</p>
+            <p>Liittyminen on helppoa – lähetä vain sähköposti osoitteeseen <a href="mailto:info@dirtti.org" class="nav-link-custom d-inline p-0">info@dirtti.org</a>. Vastaamme sinulle kaikki tarvittavat tiedot aloittamiseen (tarkistathan myös roskapostikansiosi varmuuden vuoksi!).</p>
+            <p>Olemme todella iloisia saadessamme sinut osaksi yhteisöämme!</p>
+        </section>
+
+        <section id="rules" class="container my-5 content-section">
+            <h2>Turvallisuussäännöt</h2>
+            <p>Noljakka Dirt Park on yhdistyksen ylläpitämä harjoittelualue.</p>
+            <p>Kaikki toiminta alueella tapahtuu omalla vastuulla. Tämä koskee sekä ajajia että katsojia.</p>
+            <p>Alue on tarkoitettu vain polkupyörille.</p>
+            <p>Kunnollinen varustus ja turvallinen pyörä ovat pakollisia. Ajaminen ilman kypärää on kielletty. Suosittelemme myös muita suojavarusteita, kuten kokokasvokypärää, polvi- ja kyynärsuojia, selkä-/rintapanssaria, tukevia ajokenkiä, ajolaseja ja hanskoja.</p>
+            <p>Tarkista hyppylinjat ennen ajoa kulumien, muutosten tai mahdollisen ilkivallan varalta. Ilmoita ongelmista heti yhdistykselle: <a href="mailto:admin@dirtti.org" class="nav-link-custom d-inline p-0">admin@dirtti.org</a>.</p>
+            <p>Varmista aina, että rata on vapaa ennen ajoa.</p>
+            <p>Pysähdy vain turvallisissa ja näkyvissä paikoissa.</p>
+            <p>Aja oman taitotasosi mukaan. Älä kokeile uusia linjoja yksin.</p>
+            <p>Palaa lähtöpisteeseen aina puiston viereistä tietä pitkin.</p>
+            <p>Jos joudut ylittämään linjan, tee se vain huolellisesti varmistamalla.</p>
+            <p>Älä kiipeä hyppyreille.</p>
+            <p>Ajaminen päihteiden vaikutuksen alaisena on ehdottomasti kielletty.</p>
+            <p>Onnettomuuden sattuessa: pysähdy, auta ja soita hätänumeroon <strong>112</strong> tarvittaessa. Ohjaa pelastuspalvelu osoitteeseen: Kulku 3 ja 7 Elopellontien välistä, Noljakka 80140. Kävele noin 150 metriä suoraan edessä olevaa korkeaa maastoa kohti. Geokoordinaatit: <strong>62.625140, 29.681445</strong>.</p>
+            <p>Älä rakenna tai muuta ratojen rakenteita ilman yhdistyksen lupaa. Kaikki muutostyöt on sovittava etukäteen.</p>
+            <p>Luvattomat muutokset on kielletty ja ilmoitetaan viranomaisille ilkivaltana.</p>
+        </section>
+
+        <section id="volunteer" class="container my-5 content-section">
+            <h2>Vapaaehtoistyö</h2>
+            <p>Etsimme aina innokkaita vapaaehtoisia auttamaan toiminnan kehittämisessä. Jos sinulla on taito, josta voisi olla hyötyä, ota yhteyttä: <a href="mailto:admin@dirtti.org" class="nav-link-custom d-inline p-0">admin@dirtti.org</a></p>
+            <p>Apua tarvitaan monessa: markkinoinnissa, valokuvauksessa, graafisessa suunnittelussa, verkkosivujen sisällössä, tapahtumien järjestämisessä ja yhteisön rakentamisessa.</p>
+            <p>Ja tietysti kaivamisessa. Järjestämme virallisia "dig days", jolloin kaikki voivat tulla auttamaan.</p>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2025 Noljakan Dirtti ry. Y-tunnus 3550234-2. Kaikki oikeudet pidätetään. Tehty <a class="nav-link-custom d-inline p-0"  style="color: white;" href="https://ex-vi.sourceforge.net/">Vi-editorilla</a>.</p>
         </div>
-      </div>
     </footer>
-  </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
